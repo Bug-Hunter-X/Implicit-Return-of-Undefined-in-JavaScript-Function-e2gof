@@ -1,0 +1,1 @@
+function foo(a, b) {  if (typeof b === 'undefined') {    return a; // Return a if b is undefined  }  return a + b;}console.log(foo(1, 2)); // Output: 3console.log(foo(1)); // Output: 1
